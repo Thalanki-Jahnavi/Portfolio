@@ -1,0 +1,1 @@
+Hi! I'm Thalanki Jahnavi, a Full Stack Developer passionate about building clean, responsive, and impactful digital experiences. This is my personal portfolio website built to showcase my skills, projects, and professional journey.

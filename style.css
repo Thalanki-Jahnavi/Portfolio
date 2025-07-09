@@ -1,0 +1,248 @@
+body {
+      font-family: 'Inter', sans-serif;
+    }
+    .radial-text {
+      background: radial-gradient(circle at center, #3b006b, #7e22ce);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      /*text-fill-color: transparent;*/
+      display: inline-block;
+    }
+    .about-title, .skills-title, .projects-title, .section-title {
+      background: radial-gradient(circle at center, #3b006b, #7e22ce);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      /*text-fill-color: transparent;*/
+      display: inline-block;
+    }
+    .section-subtitle {
+      color: #000000 !important;
+    }
+    /* Unique project card style */
+    .project-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 1rem;
+      box-shadow: 0 10px 15px -3px rgb(124 58 237 / 0.4), 0 4px 6px -4px rgb(124 58 237 / 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: flex-start;
+      padding: 2rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .project-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 25px -5px rgb(124 58 237 / 0.6), 0 10px 10px -5px rgb(124 58 237 / 0.4);
+      z-index: 10;
+    }
+    .project-icon-bg {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 120px;
+      height: 120px;
+      background: radial-gradient(circle at center, #7e22ce, #3b006b);
+      border-radius: 50%;
+      opacity: 0.15;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .project-icon {
+      color: #7e22ce;
+      font-size: 3rem;
+      z-index: 10;
+      flex-shrink: 0;
+    }
+    .project-content {
+      position: relative;
+      z-index: 10;
+      text-align: left;
+      width: 100%;
+    }
+    .project-title {
+      font-weight: 700;
+      font-size: 1.5rem; /* text-xl */
+      color: #3b006b;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .project-description {
+      color: #4b5563; /* gray-700 */
+      font-size: 1rem;
+      line-height: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .project-subheading {
+      font-weight: 600;
+      color: #000000 !important;
+      margin-bottom: 0.5rem;
+      font-size: 1.125rem; /* text-lg */
+    }
+    .project-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 0.75rem;
+      margin-bottom: 1rem;
+      padding-left: 0;
+      list-style: none;
+    }
+    .project-list li {
+      background-color: #ede9fe; /* purple-100 */
+      color: #000000 !important;
+      font-weight: 600;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px; /* full rounded */
+      font-size: 0.875rem; /* text-sm */
+      white-space: nowrap;
+    }
+    .key-features-list {
+      list-style-type: disc;
+      padding-left: 1.25rem;
+      color: #374151; /* gray-700 */
+      margin-bottom: 0;
+    }
+    .experience-education-section {
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 4rem;
+      text-align: left;
+    }
+    .section-block {
+      margin-bottom: 3rem;
+      background: white;
+      padding: 1.5rem 2rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+    }
+    .section-block h3 {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #3b006b;
+      margin-bottom: 1rem;
+    }
+    .item-title {
+      font-weight: 600;
+      font-size: 1.125rem;
+      color: #111827; /* gray-900 */
+    }
+    .item-subtitle {
+      font-weight: 500;
+      color: #6b7280; /* gray-500 */
+      margin-bottom: 0.25rem;
+    }
+    .item-duration {
+      font-size: 0.875rem;
+      color: #9ca3af; /* gray-400 */
+      margin-bottom: 0.75rem;
+    }
+    .item-description {
+      color: #4b5563; /* gray-700 */
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    .experience-education-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+    }
+    .connect-section {
+      max-width: 600px;
+      margin: 3rem auto 0;
+      text-align: center;
+    }
+    .connect-title {
+      font-weight: 700;
+      font-size: 1.75rem;
+      background: radial-gradient(circle at center, #3b006b, #7e22ce);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      /*text-fill-color: transparent;*/
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    .connect-text {
+      color: #374151;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      font-size: 2rem;
+      color: #6b7280;
+    }
+    .social-icons a {
+      transition: color 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #7e22ce;
+    }
+     .contact-blocks {
+      max-width: 600px;
+      margin: 0 auto 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      text-align: left;
+    }
+    .contact-block {
+      background: white;
+      padding: 1rem 1.5rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .contact-label {
+      font-weight: 700;
+      color: #3b006b;
+      margin-bottom: 0;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      min-width: 90px;
+    }
+    .contact-info {
+      color: #374151;
+      font-size: 0.95rem;
+      word-break: break-all;
+    }
+    @media (max-width: 640px) {
+      .project-card {
+        flex-direction: column;
+        padding: 1.5rem;
+      }
+      .project-icon {
+        font-size: 2.5rem;
+        margin-bottom: 0.75rem;
+      }
+      .project-content {
+        text-align: center;
+      }
+      .project-subheading {
+        text-align: center;
+      }
+      .project-list {
+        justify-content: center;
+      }
+      .key-features-list {
+        text-align: left;
+      }
+      .experience-education-grid {
+        grid-template-columns: 1fr;
+      }
+    }
